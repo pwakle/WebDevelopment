@@ -1,0 +1,32 @@
+/*
+How to link CSS to HTML
+below is the syntax
+    <link rel="stylesheet" href="CSS Folder/First Day.css">
+*/
+
+/*
+learn 1
+How to use ID selector in CSS
+ID Selector --> How to use ID Selector--> USe # and name of the ID selector
+
+Sample in HTML
+<p id="secday">This sentence is written to check working of CSS using ID Selector</p>  
+*/
+
+#secday
+{
+color: red;
+}
+
+/*
+learn 2
+
+How to use Class selector in CSS
+Sample in HTML
+<p class="tsecday">This sentence is written to check working of CSS using CLass Selector</p>
+
+*/
+
+.tsecday{
+    color: magenta;
+}
