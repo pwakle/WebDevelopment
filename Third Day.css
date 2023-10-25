@@ -1,0 +1,39 @@
+/*
+Learn CSS Text Align, font-weight, text-decoration, line-height, letter spacing
+lets learn to apply coloe in background
+
+*/
+
+/*
+Still need to learn how to install custom font
+
+*/
+
+.Michael
+{
+    text-align: center;
+    text-decoration:blue underline;
+    font-weight: bold;
+    line-height: 450%;
+    letter-spacing: 3px;
+}
+
+.Michael2
+{
+text-decoration: wavy underline red;
+font-size: 40px;
+}
+
+.Michael3
+{
+font-family: arial narrow;
+
+}
+
+
+button
+{
+color: aqua;
+background-color: violet;
+
+}
