@@ -1,0 +1,15 @@
+
+/*
+We are learning Universal selector
+Then we will study using comma in selector
+*/
+
+* {
+
+    background-color: grey;
+}
+
+h4,h5
+{
+color: green;
+}
