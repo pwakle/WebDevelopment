@@ -8,29 +8,47 @@
 
 </head>
 <body>
-<!-- Learning the types of Descendant Selector -->
+<!-- Learning the types of Descendant Selector. The Descendant Selector is specified by whitespace in CSS. 
+    It helps in selecting elements that are descendants of the parent element-->
 
-<h2>1 Learn Descendant Selectors</h2>
+    <h3>Learning from Example 1 </h3>
+    
+    <h2>1 Learn Descendant Selectors</h2>
 <p>This is zero paragraph in Main Division</p>
 
-<div class="Main-Division">
-    <ul>
+    <div>
         <p>This is first paragraph in Main Division</p>
-    </ul>
-    <ui>
-        <div>
-            <p>This is second paragraph in Main Division</p>
-        </div>
-    </ui>
-        <span>This is image of meg ryan</span>
-</div>
-
-<h2>2 Adjacent (also called as Combinator) and Direct Descendant selectors</h2>
-
-<h2>3 The Attribute selectors</h2>
+        <p>This is second paragraph in Main Division</p>
+    </div>        
+        
+    <p>This is third paragraph not in Main Division hence not affected by descendant Selector  </p>
 
 
-<h2>4 The Pseudo Selectors</h2>
+<h3>Learning from Example 2 </h3>
+
+<li>Home</li>
+
+<li>Home 2
+    <p>This is first paragraph</p>
+    <Ul>
+        <li>Our Team</li>
+        <li>Our History</li>
+    </Ul>
+    <p>This is second paragraph- not affected by descendant Selector</p>
+</li>
+
+<li>Contact</li>
+
+
+<!--   
+There are four different combinators in CSS:
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+ -->
+
+
     
 </body>
 </html>
