@@ -1,0 +1,20 @@
+
+
+/*
+There are four different combinators in CSS:
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+ */
+ 
+ /*
+adjacent sibling selector (+)
+The + selector is used to select an element that is directly after another specific element.
+
+
+ */
+
+ div + p {
+    color: blueviolet;
+ }
