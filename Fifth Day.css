@@ -12,6 +12,11 @@ general sibling selector (~)
  */
 
 
-div ui {
+div p {
     color: red;
+}
+
+ul li
+{
+    color: violet;
 }
