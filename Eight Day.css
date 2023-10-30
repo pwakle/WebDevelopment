@@ -1,0 +1,19 @@
+/*
+There are four different combinators in CSS:
+descendant selector (space)
+child selector (>)
+Adjacent sibling selector (+)
+General sibling selector (~)
+ */
+ 
+ /*
+General sibling selector (~)
+
+General sibling selector (~) selects all elements that are next siblings of a specified element.
+ */
+
+ div ~ p
+ {
+color: red;
+background-color: blue;
+ }
