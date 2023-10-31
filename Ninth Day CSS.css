@@ -1,0 +1,33 @@
+
+/*
+CSS Attribute Selector (~)
+The [attribute] selector is used to select elements with a specified attribute.
+
+ */
+
+ input[type="text"]
+ {
+
+    color: brown;
+    background-color:skyblue
+}
+
+input[type="password"]
+{
+    background-color: bisque;
+}
+
+a[href="https://www.imdb.com/name/nm0000212/"]{
+    color: tomato;
+}
+
+a[href="https://www.duolingo.com/"]{
+  color: blue;  
+}
+
+a[href="https://www.mrmoneymustache.com/mmm-recommends/"]
+{
+    color:red;
+    background-color: aqua;
+
+}
