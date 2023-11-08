@@ -1,0 +1,24 @@
+/*
+We are learning CSS Cascade 
+We will be using two examples
+*/
+
+
+h2,h4{
+    color:red;
+}
+p{
+    color: blueviolet;
+}
+
+div{
+    color: yellowgreen;
+}
+
+/*
+Below blue color has overwritten the red color
+*/
+h2{
+    background-color:blanchedalmond;
+    color:blue;
+}

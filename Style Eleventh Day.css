@@ -1,0 +1,12 @@
+/*
+We are learning CSS Cascade 
+We will be using two CSS files and see how the second CSS file overwrites the first one
+*/
+
+/*
+Lets see how the Para is overwritten in bluwviolet to brown
+*/
+
+p{
+color: brown;
+}
