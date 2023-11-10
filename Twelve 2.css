@@ -1,0 +1,46 @@
+/*
+We are learning Box Model 
+
+CSS border-radius Property
+
+Add border style & border-width
+
+*/
+
+#one{
+width: 500px;
+background-color: moccasin;
+padding: 15px;
+border-color: blueviolet;
+border-style: solid;
+border-width: 10px;
+border-radius: 30%;
+
+}
+
+#two{
+    width:300px;
+    background-color: grey;
+    border-color: red;
+    border-style: dashed;
+    border-width: 5px;
+    padding: 20px;
+}
+
+#three{
+    width: 350px;
+    height: 100px;
+    background-color: violet;
+    padding: 50px;
+    border: 5px solid blue; /* Different way to represent the border ->thickness style color  */
+    border-radius: 40px;
+    
+}
+#four{
+
+    width: 450px;
+    padding: 50px;
+    background-color: yellowgreen;
+    border-style: double;
+    border-width: 10px;
+}
