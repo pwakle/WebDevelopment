@@ -1,0 +1,54 @@
+/*  
+Margin: The margin CSS shorthand property sets the margin area on all four sides of an element.
+
+*/
+#tagone{
+    background-color:magenta;
+    width: 450px;
+    height: 70px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: tomato;
+
+}
+
+#tagtwo
+{
+background-color: turquoise;
+width: 300px;
+height: 90px;
+border-width: 10px;
+border-style: dashed;
+margin-top: 50px;
+
+}
+
+#tagthree
+{
+background-color: darkgoldenrod;
+width: 600px;
+height: 70px;
+margin-top: 20px;
+margin-bottom: 30px;
+border-width: 5px;
+border-style: solid;
+
+}
+
+#tagfour
+{
+background-color: forestgreen;
+width: 600px;
+height: 70px;
+margin-left: 20px;
+border-width: 5px;
+border-style: solid;
+
+
+}
+
+p{
+
+margin: 25px 50px 75px 100px;
+
+}
