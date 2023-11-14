@@ -13,11 +13,31 @@ border: 2px solid brown;
 display: inline;
 }
 
+h3{
+    background-color: tomato;
+    width: 20%;
+}
+
+#tagfour{
+    background-color: tomato;
+    width: 20%;
+    line-height: 10px%;
+}
+
 span{
     background-color: turquoise;
     border: 1px, solid burlywood;
     display: block;
 
+}
+
+#tagthree{
+    background-color: yellowgreen;
+    border: 2px dotted black;
+    width: 50%;
+    padding:2%;
+    display: none;
+   
 }
 
 div{
@@ -35,4 +55,25 @@ p{
     padding: 20px;
     width: 400px;
     display: inline-block;
+}
+article{
+    font-size: 30px;
+}
+
+ul{
+    font-size: 1.5rems;
+}
+h4{
+font-size: 1.1em;
+margin-left: 4em;
+}
+
+button{
+font-size: 30px;
+padding: 10px;
+border-radius: 30px;
+}
+
+p{
+font-size: 0.5em;
 }
