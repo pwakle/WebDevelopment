@@ -1,0 +1,23 @@
+
+
+p
+{
+    border: 3px solid red;
+    outline: 2px dashed green;
+    outline-offset: 6px;
+    padding: 20px 50px;
+
+}
+#first{
+    width: 600px;
+    height: 50px;
+    border: 1px solid red;
+
+}
+
+#second{
+    border: 3px solid brown;
+    padding: 10px;
+
+
+}
